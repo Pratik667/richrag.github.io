@@ -1,0 +1,193 @@
+    /*--Author: Magenta Creatives
+Author URL: http://magentacreative.ga
+Build Date :
+--*/
+    /*-- banner --*/
+    
+    @font-face {
+        font-family: "Nike Futura";
+        font-style: normal;
+        font-weight: 400;
+        src: url(fonts/nike-futura-extra-bold-v200.eot), url(fonts/nike-futura-extra-bold-v200.eot?#iefix) format('embedded-opentype'), url(fonts/nike-futura-extra-bold-v200.woff2) format('woff2'), url(fonts/nike-futura-extra-bold-v200.woff) format('woff'), url(../../fonts/nike-futura-extra-bold-v200.ttf) format('truetype'), url(fonts/nike-futura-extra-bold-v200.svg#nike-futura-extra-bold-v200) format('svg')
+    }
+    body{
+        background-color: #fff;
+    }
+    section.hero,
+    #block {
+        position: relative;
+        height: 800px;
+        width: 100%;
+    }
+    
+    .overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 20;
+        /* background-color: rgba(0, 0, 0, 0.3); */
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-top: 40%;
+        display: table;
+    }
+    
+    .bpla-but {
+        position: relative;
+        width: auto;
+        height: auto;
+        font-weight: bold;
+        text-align: center;
+        text-transform: uppercase;
+        background-color: transparent;
+        cursor: pointer;
+        font-size: x-large;
+        padding: 1%;
+        text-decoration: none;
+        text-decoration-color: none;
+        border: 1px solid white;
+        color: white;
+    }
+    
+    .bpla-but:hover {
+        background-color: white;
+    }
+    /*-- divider --*/
+    
+    section.divider-wthree {
+        padding: 40px 0;
+    }
+    
+    section.divider-wthree-slider {
+        padding: 100px 0;
+        background: url(../images/about.jpg) no-repeat;
+        background-attachment: fixed;
+        font-weight: 700;
+        background-size: 100% 100%;
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        -ms-background-size: 100% 100%;
+    }
+    
+    .sliderr-content {
+        background-color: #ffffff;
+        opacity: 0.8;
+    }
+    
+    .ftco-gallery {
+        background-image: linear-gradient(to bottom right, #000000, #2f3542);
+        color: #fff;
+    }
+    
+    .mb-41 {
+        color: #fff;
+    }
+    
+    section.divider-s-wthree {
+        padding: 100px 0;
+        background-image: linear-gradient(to bottom right, #fff, #fff);
+    }
+    
+    section.second {
+        background-image: linear-gradient(to bottom right, #fff, #fff);
+    }
+    
+    .headin {
+        margin: 0;
+        color: #111111;
+        font-weight: 900;
+        font-family: "Montserrat", sans-serif;
+        font-size: 60px;
+        word-break: keep-all;
+        line-height: 1.2;
+        letter-spacing: -1px;
+    }
+    
+    .sub-headin {
+        color: black;
+        font-weight: 700;
+    }
+    /*-- /divider --*/
+    /*-- product --*/
+    
+    section.product-wthree {
+        padding: 0px 0;
+        background-image: linear-gradient(to bottom right, #000000, #2f3542);
+        line-height: 0;
+    }
+    
+    .product-wthree-img {
+        max-height: 420px;
+    }
+    
+    .product-wthree-img:hover {
+        transform: scale(1.02);
+    }
+    /*-- /about --*/
+    /* Header */
+    
+    .title-heading {
+        font-size: xxx-large;
+        font-weight: 500;
+    }
+    
+    .title-sub-heading {
+        font-size: xx-large;
+        font-weight: 500;
+    }
+    
+    .title-price {
+        font-size: large;
+        font-weight: 400;
+    }
+    
+    .cta {
+        text-align: center;
+        margin-top: 1.8rem;
+    }
+    
+    .cta-link {
+        font-size: large;
+        padding: 1%;
+        display: inline-block;
+        border-radius: large;
+        background: #111;
+        color: #fff;
+        line-height: 1.8;
+        text-decoration: none;
+        
+    }
+    
+    .cta-link:nth-child(2) {
+        margin-left: 2.6rem;
+    }
+    
+    .cta-link:hover {
+        background: #485460;
+        color: #fff;
+    }
+    /* header */
+    
+    .slick-prev:before,
+    .slick-next:before {
+        color: black;
+    }
+    /* Dyna video */
+    
+    .dyna-vid {
+        position: relative;
+        width: 100%;
+        opacity: 0.5;
+        z-index: 1;
+    }
+    
+    .powerlay {
+        position: absolute;
+        top: 100px;
+        left:15%;
+        z-index: 2147483647;
+        text-align: center;
+    }
