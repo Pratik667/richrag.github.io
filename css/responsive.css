@@ -1,0 +1,16 @@
+            @media only screen and (max-width: 1280px) {
+                .product-wthree-img {
+                    max-height: 300px;
+                }
+                section.product-wthree {
+                    height: 360px;
+                }
+                .dyna-vid {
+                    height: 360px;
+                }
+                .headin {
+                    font-size: 51px;
+                }
+            }
+            
+            @media only screen and (max-width: 768px) {}

@@ -10,9 +10,11 @@ Build Date :
         font-weight: 400;
         src: url(fonts/nike-futura-extra-bold-v200.eot), url(fonts/nike-futura-extra-bold-v200.eot?#iefix) format('embedded-opentype'), url(fonts/nike-futura-extra-bold-v200.woff2) format('woff2'), url(fonts/nike-futura-extra-bold-v200.woff) format('woff'), url(../../fonts/nike-futura-extra-bold-v200.ttf) format('truetype'), url(fonts/nike-futura-extra-bold-v200.svg#nike-futura-extra-bold-v200) format('svg')
     }
-    body{
+    
+    body {
         background-color: #fff;
     }
+    
     section.hero,
     #block {
         position: relative;
@@ -70,11 +72,6 @@ Build Date :
         -moz-background-size: 100% 100%;
         -o-background-size: 100% 100%;
         -ms-background-size: 100% 100%;
-    }
-    
-    .sliderr-content {
-        background-color: #ffffff;
-        opacity: 0.8;
     }
     
     .ftco-gallery {
@@ -158,7 +155,6 @@ Build Date :
         color: #fff;
         line-height: 1.8;
         text-decoration: none;
-        
     }
     
     .cta-link:nth-child(2) {
@@ -168,6 +164,7 @@ Build Date :
     .cta-link:hover {
         background: #485460;
         color: #fff;
+        cursor: pointer;
     }
     /* header */
     
@@ -187,7 +184,11 @@ Build Date :
     .powerlay {
         position: absolute;
         top: 100px;
-        left:15%;
+        left: 15%;
         z-index: 2147483647;
         text-align: center;
+    }
+    
+    .makeindia {
+        height: 300px;
     }

@@ -180,13 +180,11 @@ a:hover {
 }
 
 a:not([href]):not([tabindex]) {
-    color: inherit;
     text-decoration: none;
 }
 
 a:not([href]):not([tabindex]):hover,
 a:not([href]):not([tabindex]):focus {
-    color: inherit;
     text-decoration: none;
 }
 
@@ -517,7 +515,7 @@ mark,
 
 .img-thumbnail {
     padding: 0.25rem;
-    background-color: #fff;
+    background-color: transparent;
     border: 1px solid #dee2e6;
     border-radius: 0.25rem;
     max-width: 100%;
@@ -10913,7 +10911,7 @@ body {
     font-size: 15px;
     line-height: 1.8;
     font-weight: 400;
-    color: gray;
+    color: #fff;
 }
 
 body.menu-show {
@@ -11938,7 +11936,7 @@ h5,
     margin-bottom: 30px;
     position: relative;
     z-index: 0;
-    background: #fff;
+    background-color: rgba(0, 0, 0, 0.1);
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
@@ -11959,7 +11957,7 @@ h5,
     -webkit-box-shadow: inset 0px 0px 101px 21px rgba(0, 0, 0, 0.09);
     -moz-box-shadow: inset 0px 0px 101px 21px rgba(0, 0, 0, 0.09);
     box-shadow: inset 0px 0px 101px 21px rgba(0, 0, 0, 0.09);
-    background: #fff;
+    background-color: none;
     z-index: 1;
 }
 
